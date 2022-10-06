@@ -7,9 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.teonas.hrpayroll.entities.Payment;
 import com.teonas.hrpayroll.services.PaymentService;
-
-import entities.Payment;
 
 @RestController
 @RequestMapping(value = "/payments")

@@ -1,4 +1,4 @@
-package entities;
+package com.teonas.hrpayroll.entities;
 
 import java.io.Serializable;
 

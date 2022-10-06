@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Spring Boot-HrPayrollApplication<hr-payroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrpayroll.HrPayrollApplication",
+            "projectName": "hr-payroll",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-HrWorkerApplication<hr-worker>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
