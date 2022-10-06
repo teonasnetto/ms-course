@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HrWorkerApplication<hr-worker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrworker.HrWorkerApplication",
+            "projectName": "hr-worker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
