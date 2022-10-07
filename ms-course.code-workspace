@@ -7,5 +7,9 @@
 	"settings": {
 		"java.configuration.updateBuildConfiguration": "interactive",
 		"maven.view": "flat"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
 	}
 }
