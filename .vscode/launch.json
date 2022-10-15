@@ -9,25 +9,13 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-HrWorkerApplication<hr-worker>1",
+            "name": "Spring Boot-HrWorkerApplication<hr-worker>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.teonas.hrworker.HrWorkerApplication",
             "projectName": "hr-worker",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-            "vmArgs": "-Dserver.port=8001"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-HrWorkerApplication<hr-worker>2",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hrworker.HrWorkerApplication",
-            "projectName": "hr-worker",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env",
-            "vmArgs": "-Dserver.port=8002"
         },
         {
             "type": "java",
