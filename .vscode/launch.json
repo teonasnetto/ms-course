@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrUserApplication",
+            "request": "launch",
+            "mainClass": "com.teonas.hruser.HrUserApplication",
+            "projectName": "hr-user"
+        },
+        {
+            "type": "java",
             "name": "Launch HrConfigServerApplication",
             "request": "launch",
             "mainClass": "com.teonas.hrconfigserver.HrConfigServerApplication",
