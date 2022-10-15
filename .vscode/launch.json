@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrApiGatewayZuulApplication",
+            "request": "launch",
+            "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
+            "projectName": "hr-api-gateway-zuul"
+        },
+        {
+            "type": "java",
             "name": "Launch HrEurekaServerApplication",
             "request": "launch",
             "mainClass": "com.teonas.hreurekaserver.HrEurekaServerApplication",
@@ -15,7 +22,7 @@
             "mainClass": "com.teonas.hrworker.HrWorkerApplication",
             "projectName": "hr-worker",
             "args": "",
-            "envFile": "${workspaceFolder}/.env",
+            "envFile": "${workspaceFolder}/.env"
         },
         {
             "type": "java",
