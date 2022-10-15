@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"java.configuration.updateBuildConfiguration": "interactive",
-		"maven.view": "flat"
+		"maven.view": "hierarchical"
 	},
 	"launch": {
 		"version": "0.2.0",
