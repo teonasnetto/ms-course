@@ -1,4 +1,4 @@
-package com.teonas.entities;
+package com.teonas.hruser.entities;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.teonas.entities;
+package com.teonas.hruser.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -27,7 +27,7 @@ public class User implements Serializable {
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "tb_user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
-    Set<Role> roles = new HashSet<>();
+    private Set<Role> roles = new HashSet<>();
 
     public User() {
     }

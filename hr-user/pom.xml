@@ -11,7 +11,7 @@
 	<artifactId>hr-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hr-user</name>
-	<description>Demo project for Spring Boot</description>
+	<description>User Microservice</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
@@ -39,7 +39,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
