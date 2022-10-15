@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.teonas.hrconfigserver.HrConfigServerApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch HrApiGatewayZuulApplication",
             "request": "launch",
             "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
