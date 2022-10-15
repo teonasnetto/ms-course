@@ -40,6 +40,16 @@
             "projectName": "hr-payroll",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrConfigServerApplication<hr-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrconfigserver.HrConfigServerApplication",
+            "projectName": "hr-config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
