@@ -2,49 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch HrUserApplication",
+            "name": "Spring Boot-HrEurekaServerApplication<hr-eureka-server>",
             "request": "launch",
-            "mainClass": "com.teonas.hruser.HrUserApplication",
-            "projectName": "hr-user"
-        },
-        {
-            "type": "java",
-            "name": "Launch HrConfigServerApplication",
-            "request": "launch",
-            "mainClass": "com.teonas.hrconfigserver.HrConfigServerApplication",
-            "projectName": ""
-        },
-        {
-            "type": "java",
-            "name": "Launch HrApiGatewayZuulApplication",
-            "request": "launch",
-            "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
-            "projectName": "hr-api-gateway-zuul"
-        },
-        {
-            "type": "java",
-            "name": "Launch HrEurekaServerApplication",
-            "request": "launch",
+            "cwd": "${workspaceFolder}",
             "mainClass": "com.teonas.hreurekaserver.HrEurekaServerApplication",
-            "projectName": "hr-eureka-server"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-HrWorkerApplication<hr-worker>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hrworker.HrWorkerApplication",
-            "projectName": "hr-worker",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-HrPayrollApplication<hr-payroll>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hrpayroll.HrPayrollApplication",
-            "projectName": "hr-payroll",
+            "projectName": "hr-eureka-server",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         },
@@ -60,7 +22,47 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-HrOauthApplication<hr-oauth>",
+            "name": "Spring Boot-HrApiGatewayZuulApplication<hr-api-gateway-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
+            "projectName": "hr-api-gateway-zuul",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrPayrollApplication<hr-payroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrpayroll.HrPayrollApplication",
+            "projectName": "hr-payroll",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrUserApplication<hr-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hruser.HrUserApplication",
+            "projectName": "hr-user",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrWorkerApplication<hr-worker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hrworker.HrWorkerApplication",
+            "projectName": "hr-worker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrOathApplication<hr-oauth>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.teonas.hroauth.HrOauthApplication",
