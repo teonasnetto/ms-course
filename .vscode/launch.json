@@ -57,6 +57,16 @@
             "projectName": "hr-config-server",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrOauthApplication<hr-oauth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hroauth.HrOauthApplication",
+            "projectName": "hr-oauth",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
