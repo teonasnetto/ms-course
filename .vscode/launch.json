@@ -2,16 +2,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-HrEurekaServerApplication<hr-eureka-server>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hreurekaserver.HrEurekaServerApplication",
-            "projectName": "hr-eureka-server",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
             "name": "Spring Boot-HrConfigServerApplication<hr-config-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -22,11 +12,21 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-HrApiGatewayZuulApplication<hr-api-gateway-zuul>",
+            "name": "Spring Boot-HrEurekaServerApplication<hr-eureka-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
-            "projectName": "hr-api-gateway-zuul",
+            "mainClass": "com.teonas.hreurekaserver.HrEurekaServerApplication",
+            "projectName": "hr-eureka-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrOauthApplication<hr-oauth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teonas.hroauth.HrOauthApplication",
+            "projectName": "hr-oauth",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         },
@@ -62,11 +62,11 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-HrOathApplication<hr-oauth>",
+            "name": "Spring Boot-HrApiGatewayZuulApplication<hr-api-gateway-zuul>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.teonas.hroauth.HrOauthApplication",
-            "projectName": "hr-oauth",
+            "mainClass": "com.teonas.hrapigatewayzuul.HrApiGatewayZuulApplication",
+            "projectName": "hr-api-gateway-zuul",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
